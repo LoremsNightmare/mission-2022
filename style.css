@@ -1,0 +1,150 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.halfWidthOne h1 {
+  border-left: 6px solid #ff5959;
+  padding-left: 9px;
+}
+
+#firstSection,
+#secondSection {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.halfWidthOne {
+  margin-left: 85px;
+}
+.halfWidthTwo {
+  margin-left: -45px;
+}
+
+.imgOne {
+  width: 29rem;
+  padding-top: 0rem;
+  padding-right: 1rem;
+  padding-left: 13rem;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 4rem;
+}
+p {
+  font-weight: 300;
+  font-size: 1rem;
+  color: #18191e;
+}
+
+span {
+  color: #fc9149;
+}
+h2 {
+  font-weight: 600;
+  font-size: 4rem;
+  color: #353535;
+}
+
+.btnOrange {
+  background-color: #ff5959;
+  padding: 10px 20px;
+  border-radius: 3px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+#secondSection {
+  background-repeat: no-repeat;
+  background-size: 100rem;
+  margin-top: 5rem;
+}
+
+#secondSection p {
+  font-weight: 550;
+  font-size: 21px;
+  margin-right: 50px;
+  padding-bottom: 65px;
+}
+
+#secondSection img {
+  width: 32rem;
+}
+
+.center {
+  text-align: center;
+}
+
+/* card section */
+
+#cards {
+  display: flex;
+  margin: 100px;
+}
+
+.card p {
+  font-weight: 550;
+  font-size: 16px;
+  margin-right: 50px;
+}
+
+.card h3 {
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.card {
+  width: 33.33333333333%;
+  border-radius: 30px;
+  padding: 30px;
+  margin: 15px;
+}
+.cardOne {
+  background-color: #edf5f6;
+}
+.cardTwo {
+  background-color: #ffeeee;
+}
+.cardThree {
+  background-color: #fff4d6;
+}
+
+img {
+  border-radius: 30px;
+  width: 50%;
+}
+
+/* contact us */
+
+#contact {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+/* footer */
+#footer {
+  background: #0b0d17;
+}
+#footer h1 {
+  color: #5a5a5a;
+  padding-top: 5rem;
+}
+#footer p {
+  color: white;
+  margin: 0;
+  padding-bottom: 10rem;
+}
